@@ -107,7 +107,7 @@ with tab1:
     with col1:
         mode = st.radio("Mode", ["Emoji Smuggling", "Text Distribution"])
         user_text = st.text_area("Cover Text", 
-                                 value="Love this! ❤️ 🚀" if mode == "Emoji Smuggling" else "This is a secure channel.",
+                                 value="Love this! ❤️ 🚀" if mode == "Emoji Smuggling" else "Honestly this app works way better than expected",
                                  height=100)
     with col2:
         secret_input = st.text_input("Secret Payload", "Attack at dawn")
